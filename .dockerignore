@@ -1,0 +1,45 @@
+# Build artifacts
+target/
+!target/courier-tracker-service-*.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test files
+src/test/
+
+# Maven wrapper (will be copied explicitly)
+# Keep .mvn directory for build
+
+# Docker files (not needed inside container)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Shell scripts
+*.sh
+
+# Editor backup files
+*~
+
